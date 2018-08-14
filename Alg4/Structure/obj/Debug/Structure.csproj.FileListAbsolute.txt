@@ -1,0 +1,6 @@
+E:\Code\Algorithm\Alg4\Structure\bin\Debug\Structure.dll
+E:\Code\Algorithm\Alg4\Structure\bin\Debug\Structure.pdb
+E:\Code\Algorithm\Alg4\Structure\obj\Debug\Structure.csproj.CoreCompileInputs.cache
+E:\Code\Algorithm\Alg4\Structure\obj\Debug\Structure.dll
+E:\Code\Algorithm\Alg4\Structure\obj\Debug\Structure.pdb
+E:\Code\Algorithm\Alg4\Structure\obj\Debug\Structure.csprojAssemblyReference.cache

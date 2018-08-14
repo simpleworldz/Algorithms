@@ -1,0 +1,16 @@
+E:\Code\Algorithm\Alg\MyIO\obj\Debug\MyIO.csproj.CoreCompileInputs.cache
+E:\Code\Algorithm\Alg\MyIO\bin\Debug\MyIO.dll
+E:\Code\Algorithm\Alg\MyIO\bin\Debug\MyIO.pdb
+E:\Code\Algorithm\Alg\MyIO\obj\Debug\MyIO.dll
+E:\Code\Algorithm\Alg\MyIO\obj\Debug\MyIO.pdb
+E:\Code\Algorithm\Alg3\MyIO\bin\Debug\MyIO.dll
+E:\Code\Algorithm\Alg3\MyIO\bin\Debug\MyIO.pdb
+E:\Code\Algorithm\Alg3\MyIO\obj\Debug\MyIO.csproj.CoreCompileInputs.cache
+E:\Code\Algorithm\Alg3\MyIO\obj\Debug\MyIO.dll
+E:\Code\Algorithm\Alg3\MyIO\obj\Debug\MyIO.pdb
+E:\Code\Algorithm\Alg4\MyIO\bin\Debug\MyIO.dll
+E:\Code\Algorithm\Alg4\MyIO\bin\Debug\MyIO.pdb
+E:\Code\Algorithm\Alg4\MyIO\obj\Debug\MyIO.csproj.CoreCompileInputs.cache
+E:\Code\Algorithm\Alg4\MyIO\obj\Debug\MyIO.dll
+E:\Code\Algorithm\Alg4\MyIO\obj\Debug\MyIO.pdb
+E:\Code\Algorithm\Alg4\MyIO\obj\Debug\MyIO.csprojAssemblyReference.cache
