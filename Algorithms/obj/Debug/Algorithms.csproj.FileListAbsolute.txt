@@ -4,3 +4,9 @@ C:\Data\Algorithms4\Algorithms4\Algorithms\obj\Debug\Algorithms.csproj.AssemblyR
 C:\Data\Algorithms4\Algorithms4\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
 C:\Data\Algorithms4\Algorithms4\Algorithms\obj\Debug\Algorithms.dll
 C:\Data\Algorithms4\Algorithms4\Algorithms\obj\Debug\Algorithms.pdb
+C:\Data\Algorithms\Algorithms\bin\Debug\Algorithms.dll
+C:\Data\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\Data\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.AssemblyReference.cache
+C:\Data\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+C:\Data\Algorithms\Algorithms\obj\Debug\Algorithms.dll
+C:\Data\Algorithms\Algorithms\obj\Debug\Algorithms.pdb

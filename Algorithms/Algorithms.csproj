@@ -46,6 +46,7 @@
     <Compile Include="Chapter1\ResizingArrayStack.cs" />
     <Compile Include="Chapter1\NodeStack.cs" />
     <Compile Include="Chapter2\InsertionSort.cs" />
+    <Compile Include="Chapter2\IndexMinPQ.cs" />
     <Compile Include="Chapter2\MinPQ.cs" />
     <Compile Include="Chapter2\MaxPQ.cs" />
     <Compile Include="Chapter2\MergeSort.cs" />
@@ -64,9 +65,12 @@
     <Compile Include="Chapter4\BreadthFirstPath.cs" />
     <Compile Include="Chapter4\DepthFirstPaths.cs" />
     <Compile Include="Chapter4\DepthFirstSearch.cs" />
+    <Compile Include="Chapter4\DifkstraSP.cs" />
     <Compile Include="Chapter4\Digraph.cs" />
     <Compile Include="Chapter4\DirectedCycle.cs" />
+    <Compile Include="Chapter4\DirectedEdge.cs" />
     <Compile Include="Chapter4\Edge.cs" />
+    <Compile Include="Chapter4\EdgeWeightedDigraph.cs" />
     <Compile Include="Chapter4\EdgeWeightedGraph.cs" />
     <Compile Include="Chapter4\Graph.cs" />
     <Compile Include="Chapter4\LazyPrimMST.cs" />

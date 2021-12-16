@@ -22,14 +22,74 @@ namespace ConsoleApp
             //p.GraphTest();
             //p.DigraphTest();
             //p.MinimumSpanningTreesTest();
-            p.PriorityQueueTest();
+            //p.PriorityQueueTest();
+            //p.ShortestPathTest();
+            //p.IndexMinPQTest();
+            p.SPTest();
+        }
+        void SPTest()
+        {
+            var strArr = FileHandler.ReadFileAsStrArr("tinyEWD.txt");
+            var ewg = new EdgeWeightedDigraph(strArr);
+            foreach (var e in ewg.Adj(0))
+            {
+                Console.WriteLine(e);
+            }
+            Console.WriteLine();
+            foreach (var e in ewg)
+            {
+                Console.WriteLine(e);
+            }
+            Console.WriteLine();
+            var sp = new DifkstraSP(ewg, 0);
+            foreach (var e in sp)
+            {
+                Console.WriteLine(e);
+            }
+            Console.ReadKey();
+        }
+        void IndexMinPQTest()
+        {
+            var strArr = FileHandler.ReadFileAsStrArr("words3.txt");
+            strArr.Show();
+            var pq = new IndexMinPQ<string>(strArr.Length);
+            for (int i = 0; i < strArr.Length; i++)
+            {
+                pq.Insert(i, strArr[i]);
+            }
+            while (!pq.IsEmpty())
+            {
+                Console.WriteLine(pq.DelMin());
+            }
+            Console.WriteLine();
+            Console.ReadKey();
+        }
+        void ShortestPathTest()
+        {
+            var strArr = FileHandler.ReadFileAsStrArr("tinyEWG.txt");
+            var ewg = new EdgeWeightedDigraph(strArr);
+            foreach (var e in ewg.Adj(0))
+            {
+                Console.WriteLine(e);
+            }
+            Console.WriteLine();
+            foreach (var e in ewg)
+            {
+                Console.WriteLine(e);
+            }
+            Console.ReadKey();
         }
         void MinimumSpanningTreesTest()
         {
             var strArr = FileHandler.ReadFileAsStrArr("tinyEWG.txt");
             var ewg = new EdgeWeightedGraph(strArr);
-
             foreach (var e in ewg.Adj(0))
+            {
+                Console.WriteLine(e);
+            }
+            Console.WriteLine();
+            var lpm = new LazyPrimMST(ewg);
+            foreach (var e in lpm.Edges())
             {
                 Console.WriteLine(e);
             }

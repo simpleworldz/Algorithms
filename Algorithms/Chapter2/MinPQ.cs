@@ -31,11 +31,11 @@ namespace Algorithms.Chapter2
         public T DelMin()
         {
             //if (IsEmpty()) return default(T);//??
-            var max = pq[1];
+            var min = pq[1];
             pq[1] = pq[N--];
             pq[N + 1] = default(T);//防止对象游离（通知GC清理）
             Sink(1);
-            return max;
+            return min;
         }
         private void Swim(int k)
         {
