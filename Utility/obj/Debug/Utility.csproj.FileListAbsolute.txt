@@ -1,6 +1,0 @@
-C:\Data\Algorithms\Utility\bin\Debug\Utility.dll
-C:\Data\Algorithms\Utility\bin\Debug\Utility.pdb
-C:\Data\Algorithms\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
-C:\Data\Algorithms\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
-C:\Data\Algorithms\Utility\obj\Debug\Utility.dll
-C:\Data\Algorithms\Utility\obj\Debug\Utility.pdb

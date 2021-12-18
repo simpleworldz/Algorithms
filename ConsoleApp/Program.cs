@@ -2,6 +2,7 @@
 using Algorithms.Chapter2;
 using Algorithms.Chapter3;
 using Algorithms.Chapter4;
+using Algorithms.Chapter5;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,26 @@ namespace ConsoleApp
             //p.PriorityQueueTest();
             //p.ShortestPathTest();
             //p.IndexMinPQTest();
-            p.SPTest();
+            //p.SPTest();
+            p.StringTest();
+        }
+        void StringTest()
+        {
+            var strArr = FileHandler.ReadFileAsStrArr("words3.txt");
+            var xx = strArr.ToList();
+            xx.Add("aaa");
+            xx.Add("aaa");
+            xx.Add("aaa");
+            xx.Add("aaa");
+            xx.Add("aaa");
+            strArr = xx.ToArray();
+            strArr.Show();
+            //LSD.Sort(strArr, 3);
+            //MSD.Sort(strArr);
+            Quick3String.Sort(strArr);
+            Console.WriteLine(strArr.IsSort());
+            strArr.Show();
+            Console.ReadKey();
         }
         void SPTest()
         {
