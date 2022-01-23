@@ -74,10 +74,15 @@
     <Compile Include="Chapter4\EdgeWeightedGraph.cs" />
     <Compile Include="Chapter4\Graph.cs" />
     <Compile Include="Chapter4\LazyPrimMST.cs" />
+    <Compile Include="Chapter5\BoyerMoore.cs" />
     <Compile Include="Chapter5\Common.cs" />
+    <Compile Include="Chapter5\Brute.cs" />
+    <Compile Include="Chapter5\KMP.cs" />
     <Compile Include="Chapter5\LSD.cs" />
     <Compile Include="Chapter5\MSD.cs" />
     <Compile Include="Chapter5\Quick3String.cs" />
+    <Compile Include="Chapter5\TrieST.cs" />
+    <Compile Include="Chapter5\TST.cs" />
     <Compile Include="LeetCode\BinarySearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

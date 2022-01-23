@@ -26,16 +26,9 @@ namespace Algorithms.Chapter5
                 {
                     a.Exch(i++, lt++);
                 }
-                逻辑可简化
                 else if (cmp > 0)
                 {
-                    //Algorithms.Chapter2.Common.Less(a[j][d], mid);
-                    while (a[gt].CharAt(d).CompareTo(mid) > 0)
-                    {
-                        gt--;
-                    }
-                    if (i < gt)
-                        a.Exch(i, gt);
+                    a.Exch(i, gt--);
                 }
                 else
                 {

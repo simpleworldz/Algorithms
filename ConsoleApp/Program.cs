@@ -27,7 +27,43 @@ namespace ConsoleApp
             //p.ShortestPathTest();
             //p.IndexMinPQTest();
             //p.SPTest();
-            p.StringTest();
+            //p.StringTest();
+            //p.TrieSTTest();
+            p.SubstringTest();
+        }
+        void SubstringTest()
+        {
+            var strArr = FileHandler.ReadFileAsStrArr("words3.txt");
+            var text = string.Join("",strArr);
+            Console.WriteLine(text);
+            var bm = new BoyerMoore("zooni");
+            Console.WriteLine(bm.Search(text));
+
+            //Console.WriteLine(Brute.Search(text, "aaa"));
+            //Console.WriteLine(Brute.Search(text, "yet"));
+            //Console.WriteLine(Brute.Search(text, "ye2"));
+            //Console.WriteLine(Brute.Search(text, "yet2"));
+            //Console.WriteLine(Brute.Search(text, "zoo"));
+            Console.ReadKey();
+        }
+        void TrieSTTest()
+        {
+            var strArr = FileHandler.ReadFileAsStrArr("shellsST.txt");
+            strArr.Show();
+            //var st = new TrieST<int>();
+            var st = new TST<int>();
+            for (int i = 1; i < strArr.Length; i++)
+            {
+                //st.Put(strArr[i], i);
+                st.Put(strArr[i],i);
+            }
+            //st.Put("bad", 100);
+            Console.WriteLine(st.Get("she"));
+            Console.WriteLine(st.Get("sells"));
+            Console.WriteLine(st.Get("shore"));
+            Console.WriteLine(st.Get("shore1"));
+            Console.WriteLine(st.Get("zoo"));
+            Console.ReadKey();
         }
         void StringTest()
         {
